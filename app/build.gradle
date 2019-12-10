@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.jetbrains.dokka-android'
+apply from: '../test_dependencies.gradle'
 android {
     compileSdkVersion RootVersion.compileSdk
     buildToolsVersion RootVersion.buildVersion
@@ -37,8 +38,6 @@ dependencies {
     implementation Deps.constraint
     implementation Deps.material
     implementation Deps.lottie
-    testImplementation TestDeps.junit4
-    androidTestImplementation TestDeps.junitExt
-    androidTestImplementation TestDeps.espresso
+
 
 }

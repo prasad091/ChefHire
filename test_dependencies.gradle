@@ -1,0 +1,5 @@
+dependencies {
+    testImplementation TestDeps.junit4
+    androidTestImplementation TestDeps.junitExt
+    androidTestImplementation TestDeps.espresso
+}
