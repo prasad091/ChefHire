@@ -23,11 +23,13 @@ ChefHire
 * Glide/Fresco/Piccaso
 
 
-Language: Kotlin
+# Language
+Kotlin
 
-CI : CircleCI 
+# CI 
+CircleCI 
 
-Others:
+# Other
 * Material Design
 * CustomView Design
 * MotionLayouts
