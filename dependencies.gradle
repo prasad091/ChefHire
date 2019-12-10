@@ -1,0 +1,6 @@
+dependencies{
+    implementation Deps.coreKtx
+    implementation Deps.constraint
+    implementation Deps.material
+    implementation Deps.lottie
+}

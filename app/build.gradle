@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.jetbrains.dokka-android'
 apply from: '../test_dependencies.gradle'
+apply from: '../dependencies.gradle'
 android {
     compileSdkVersion RootVersion.compileSdk
     buildToolsVersion RootVersion.buildVersion
@@ -25,7 +26,7 @@ android {
         outputFormat = 'html'
         outputDirectory = "$buildDir/javadoc"
     }
-    dynamicFeatures = [":ChefHome", ":chefhome"]
+    dynamicFeatures = [":chefhome"]
 
 
 }
@@ -34,10 +35,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation Deps.kotlin_stdlib_jdk7
     implementation Deps.appCompat
-    implementation Deps.coreKtx
-    implementation Deps.constraint
-    implementation Deps.material
-    implementation Deps.lottie
+
 
 
 }
