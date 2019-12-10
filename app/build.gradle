@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.jetbrains.dokka-android'
+android {
+    compileSdkVersion RootVersion.compileSdk
+    buildToolsVersion RootVersion.buildVersion
+    defaultConfig {
+        applicationId "com.root.chefhire"
+        minSdkVersion RootVersion.minSdk
+        targetSdkVersion RootVersion.targetSdk
+        versionCode RootVersion.versionCode
+        versionName RootVersion.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dokka {
+        outputFormat = 'html'
+        outputDirectory = "$buildDir/javadoc"
+    }
+    dynamicFeatures = [":ChefHome"]
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation Deps.kotlin_stdlib_jdk7
+    implementation Deps.appCompat
+    implementation Deps.coreKtx
+    implementation Deps.constraint
+    implementation Deps.material
+    implementation Deps.lottie
+    testImplementation TestDeps.junit4
+    androidTestImplementation TestDeps.junitExt
+    androidTestImplementation TestDeps.espresso
+
+}
