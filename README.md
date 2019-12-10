@@ -11,8 +11,8 @@ ChefHire
 * LiveData
 * DataBinding (Optional)
 * KTX
-* Test/UI test/unit test
-3.Dynamic Features
+* Test/UI test/unit test   
+3.Dynamic Features  
 4.Thirdparty 
 * Litho
 * Epoxy
