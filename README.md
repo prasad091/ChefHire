@@ -1,7 +1,7 @@
 # ChefHire
 ChefHire
 
-1.Mvvm pattern or MvRX
+1.Mvvm pattern or MvRX              
 2.Architectural components
 * Navigation
 * Paging Library
