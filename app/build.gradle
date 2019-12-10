@@ -24,7 +24,7 @@ android {
         outputFormat = 'html'
         outputDirectory = "$buildDir/javadoc"
     }
-    dynamicFeatures = [":ChefHome"]
+    dynamicFeatures = [":ChefHome", ":chefhome"]
 
 
 }

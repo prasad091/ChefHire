@@ -1,2 +1,2 @@
-include ':app', ':ChefHome'
+include ':app', ':ChefHome', ':chefhome'
 rootProject.name='ChefHire'
