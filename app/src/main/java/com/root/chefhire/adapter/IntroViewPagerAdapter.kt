@@ -9,16 +9,16 @@ import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.viewpager.widget.PagerAdapter
 import com.root.chefhire.R
-import com.root.chefhire.model.ScreenItem
+import com.root.chefhire.model.ScreenItemModel
 
 
 class IntroViewPagerAdapter(
     mContext: Context,
-    mListScreen: List<ScreenItem>
+    mListScreen: List<ScreenItemModel>
 ) :
     PagerAdapter() {
     var mContext: Context = mContext
-    var mListScreen: List<ScreenItem> = mListScreen
+    var mListScreen: List<ScreenItemModel> = mListScreen
     @NonNull
     override fun instantiateItem(@NonNull container: ViewGroup, position: Int): Any {
         val inflater =

@@ -18,7 +18,7 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.BaseOnTabSelectedListener
 import com.root.chefhire.R
 import com.root.chefhire.adapter.IntroViewPagerAdapter
-import com.root.chefhire.model.ScreenItem
+import com.root.chefhire.model.ScreenItemModel
 import com.root.chefhire.ui.login.LoginActivity
 
 
@@ -54,21 +54,21 @@ class IntroActivity : AppCompatActivity() {
         btnAnim = AnimationUtils.loadAnimation(applicationContext, R.anim.button_animation)
         tvSkip = findViewById(R.id.tv_skip)
         // fill list screen
-        val mList: MutableList<ScreenItem> = ArrayList()
+        val mList: MutableList<ScreenItemModel> = ArrayList()
         mList.add(
-            ScreenItem(
+            ScreenItemModel(
                 getString(R.string.hire_chef),
                 getString(R.string.sampleText)
             )
         )
         mList.add(
-            ScreenItem(
+            ScreenItemModel(
                 getString(R.string.cooking),
                 getString(R.string.sampleText)
             )
         )
         mList.add(
-            ScreenItem(
+            ScreenItemModel(
                 getString(R.string.payment),
                 getString(R.string.sampleText)
             )

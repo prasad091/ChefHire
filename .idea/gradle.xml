@@ -9,8 +9,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bookinghistory" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/chefhome" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/profile" />
+            <option value="$PROJECT_DIR$/quickbook" />
+            <option value="$PROJECT_DIR$/searchchef" />
+            <option value="$PROJECT_DIR$/socialfeed" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

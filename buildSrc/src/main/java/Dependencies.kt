@@ -17,8 +17,8 @@ val junitExt    = "1.1.1"
 val espresso    = "3.2.0"
 val material    = "1.0.0"
 val lottie      = "3.3.0"
+val playCore    = "1.6.4"
 }
-
 object Deps{
     val kotlin_stdlib_jdk7  = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
     val appCompat           = "androidx.appcompat:appcompat:${Versions.appCompat}"
@@ -26,6 +26,7 @@ object Deps{
     val constraint          = "androidx.constraintlayout:constraintlayout:${Versions.constraint}"
     val material            = "com.google.android.material:material:${Versions.material}"
     val lottie              = "com.airbnb.android:lottie:${Versions.lottie}"
+    val playCore            = "com.google.android.play:core:${Versions.playCore}"
 }
 
 object TestDeps{

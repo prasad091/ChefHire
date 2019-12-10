@@ -8,4 +8,10 @@
     <string name="payment">Easy Payment</string>
     <string name="sampleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit</string>
     <string name="title_chefhome">home</string>
+    <string name="title_socialfeed">socialfeed</string>
+    <string name="title_quickbook">quickbook</string>
+    <string name="title_notification">notification</string>
+    <string name="title_bookinghistory">bookinghistory</string>
+    <string name="title_searchchef">searchchef</string>
+    <string name="title_profile">profile</string>
 </resources>

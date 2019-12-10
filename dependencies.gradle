@@ -3,4 +3,5 @@ dependencies{
     implementation Deps.constraint
     implementation Deps.material
     implementation Deps.lottie
+    implementation Deps.playCore
 }
