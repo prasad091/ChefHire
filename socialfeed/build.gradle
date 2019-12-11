@@ -1,8 +1,10 @@
 apply plugin: 'com.android.dynamic-feature'
-
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: '../test_dependencies.gradle'
+apply from: '../dependencies.gradle'
 android {
     compileSdkVersion 29
-    
 
 
     defaultConfig {

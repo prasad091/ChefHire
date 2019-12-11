@@ -18,7 +18,11 @@ val espresso    = "3.2.0"
 val material    = "1.0.0"
 val lottie      = "3.3.0"
 val playCore    = "1.6.4"
+val navigation  = "2.1.0"
+val dynamicFeatureFrag  = "2.3.0-SNAPSHOT"
 }
+
+
 object Deps{
     val kotlin_stdlib_jdk7  = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
     val appCompat           = "androidx.appcompat:appcompat:${Versions.appCompat}"
@@ -27,6 +31,12 @@ object Deps{
     val material            = "com.google.android.material:material:${Versions.material}"
     val lottie              = "com.airbnb.android:lottie:${Versions.lottie}"
     val playCore            = "com.google.android.play:core:${Versions.playCore}"
+    val navFragment         = "androidx.navigation:navigation-fragment:${Versions.navigation}"
+    val navUI               = "androidx.navigation:navigation-ui:${Versions.navigation}"
+    val lifecycleExt        = "androidx.lifecycle:lifecycle-extensions:${Versions.navigation}"
+    val navKtx              = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    val navUIKtx            = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    val dynamicFeatureFrag  = "androidx.navigation:navigation-dynamic-features-fragment:${Versions.dynamicFeatureFrag}"
 }
 
 object TestDeps{

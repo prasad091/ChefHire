@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_social"
+        android:icon="@drawable/ic_feed"
+        android:title="Social" />
+
+    <item
+        android:id="@+id/navigation_quickbooking"
+        android:icon="@drawable/ic_cooking"
+        android:title="Quick" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="Notify" />
+
+    <item
+        android:id="@+id/navigation_bookingcart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Cart" />
+</menu>

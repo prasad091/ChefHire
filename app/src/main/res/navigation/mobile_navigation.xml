@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        app:moduleName="chefhome"
+        android:id="@+id/navigation_home"
+        android:name="com.root.chefhome.BasicVersionFragment"
+        android:label="Home"
+
+        />
+
+    <fragment
+        app:moduleName="socialfeed"
+        android:id="@+id/navigation_social"
+        android:name="com.root.socialfeed.BasicFragment"
+        android:label="Social"
+        />
+
+    <fragment
+        app:moduleName="socialfeed"
+        android:id="@+id/navigation_notifications"
+        android:name="com.root.socialfeed.BasicFragment"
+        android:label="Quick Book"
+        />
+    <fragment
+        app:moduleName="socialfeed"
+        android:id="@+id/navigation_bookingcart"
+        android:name="com.root.socialfeed.BasicFragment"
+        android:label="Notification"
+        />
+    <fragment
+        app:moduleName="socialfeed"
+        android:id="@+id/navigation_quickbooking"
+        android:name="com.root.socialfeed.BasicFragment"
+        android:label="Cart"
+        />
+</navigation>

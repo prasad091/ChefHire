@@ -11,8 +11,8 @@ class LoginActivity : AppCompatActivity(){
 
     /**
     * OnCreate method to create an layout design
-    * @param savedInstanceState:
-    * */
+    * @param savedInstanceState  The savedInstanceState is a reference to a Bundle object that is passed into the onCreate method
+     * */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
