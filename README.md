@@ -1,6 +1,8 @@
 # ChefHire
 ChefHire
 
+<img height="480" width="280" src="https://github.com/prasad091/ChefHire/blob/master/screenshot/chef_hire.gif?raw=true"/>
+
 1.Mvvm pattern or MvRX              
 2.Architectural components
 * Navigation
