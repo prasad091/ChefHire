@@ -9,7 +9,7 @@
     <fragment
         app:moduleName="chefhome"
         android:id="@+id/navigation_home"
-        android:name="com.root.chefhome.BasicVersionFragment"
+        android:name="com.root.chefhome.ui.BasicVersionFragment"
         android:label="Home"
 
         />

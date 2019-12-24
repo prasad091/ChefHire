@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.jetbrains.dokka-android'
 apply from: '../test_dependencies.gradle'
 apply from: '../dependencies.gradle'
+apply plugin: 'kotlin-kapt'
+kapt {
+    correctErrorTypes = true
+}
 android {
     compileSdkVersion RootVersion.compileSdk
     buildToolsVersion RootVersion.buildVersion
@@ -39,16 +43,11 @@ android {
 }
 
 dependencies {
-    api 'androidx.legacy:legacy-support-v4:1.0.0'
-    api 'androidx.lifecycle:lifecycle-extensions:2.1.0'
-    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation Deps.kotlin_stdlib_jdk7
     implementation Deps.appCompat
-    implementation Deps.navFragment
-    implementation Deps.navUI
-    implementation Deps.lifecycleExt
-    implementation Deps.navKtx
-    implementation Deps.navUIKtx
-    api Deps.dynamicFeatureFrag
+    implementation Deps.epoxy
+    kapt Deps.epoxyprocessor
+
 }

@@ -1,7 +1,15 @@
 dependencies{
+    api Deps.legacyv4
+    api Deps.lifecycleExt
+    api Deps.viewmodel
     implementation Deps.coreKtx
     implementation Deps.constraint
     implementation Deps.material
     implementation Deps.lottie
     implementation Deps.playCore
+    implementation Deps.navFragment
+    implementation Deps.navUI
+    implementation Deps.navKtx
+    implementation Deps.navUIKtx
+    api Deps.dynamicFeatureFrag
 }

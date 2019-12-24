@@ -20,6 +20,8 @@ val lottie      = "3.3.0"
 val playCore    = "1.6.4"
 val navigation  = "2.1.0"
 val dynamicFeatureFrag  = "2.3.0-SNAPSHOT"
+val legacyv4    = "1.0.0"
+val epoxy       = "3.9.0"
 }
 
 
@@ -35,8 +37,12 @@ object Deps{
     val navUI               = "androidx.navigation:navigation-ui:${Versions.navigation}"
     val lifecycleExt        = "androidx.lifecycle:lifecycle-extensions:${Versions.navigation}"
     val navKtx              = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    val viewmodel           = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.navigation}"
     val navUIKtx            = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
     val dynamicFeatureFrag  = "androidx.navigation:navigation-dynamic-features-fragment:${Versions.dynamicFeatureFrag}"
+    val legacyv4            = "androidx.legacy:legacy-support-v4:${Versions.legacyv4}"
+    val epoxy               = "com.airbnb.android:epoxy:${Versions.epoxy}"
+    val epoxyprocessor      = "com.airbnb.android:epoxy-processor:${Versions.epoxy}"
 }
 
 object TestDeps{

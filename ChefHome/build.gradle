@@ -3,6 +3,10 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 apply from: '../test_dependencies.gradle'
 apply from: '../dependencies.gradle'
+apply plugin: 'kotlin-kapt'
+kapt {
+    correctErrorTypes = true
+}
 android {
     compileSdkVersion 29
 
@@ -21,6 +25,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
+    implementation Deps.epoxy
+    kapt Deps.epoxyprocessor
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 }
 repositories {
     mavenCentral()
