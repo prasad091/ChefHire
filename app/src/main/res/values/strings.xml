@@ -14,4 +14,5 @@
     <string name="title_bookinghistory">bookinghistory</string>
     <string name="title_searchchef">searchchef</string>
     <string name="title_profile">profile</string>
+    <string name="search_text">Search for chefs,cuisines...</string>
 </resources>
