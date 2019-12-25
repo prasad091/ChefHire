@@ -5,13 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.ActionBar
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModelProviders
-import androidx.recyclerview.widget.RecyclerView
-import com.root.chefhome.BasicVersionViewModel
+import com.root.chefhome.HomeViewModel
 import com.root.chefhome.HomeController
 import com.root.chefhome.R
 import com.root.chefhome.data.Data
@@ -21,13 +18,13 @@ import com.root.chefhome.data.SuggestChefData
 import kotlinx.android.synthetic.main.basic_version_fragment.*
 
 
-class BasicVersionFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     companion object {
-        fun newInstance() = BasicVersionFragment()
+        fun newInstance() = HomeFragment()
     }
 
-    private lateinit var viewModel: BasicVersionViewModel
+    private lateinit var viewModel: HomeViewModel
     public var activityContext: FragmentActivity? = null
 
     override fun onCreateView(
@@ -40,7 +37,7 @@ class BasicVersionFragment : Fragment() {
     @SuppressLint("RestrictedApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(BasicVersionViewModel::class.java)
+        viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
         val controller = HomeController()
         messagesView.setController(controller)
         controller.recentChefs = Data.recentChefs

@@ -15,4 +15,6 @@
     <string name="title_searchchef">searchchef</string>
     <string name="title_profile">profile</string>
     <string name="search_text">Search for chefs,cuisines...</string>
+    <string name="title_chefcollection">chefcollection</string>
+    <string name="title_chefcategory">chefcategory</string>
 </resources>

@@ -5,23 +5,25 @@
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home"
         android:title="Home" />
+    <item
+        android:id="@+id/navigation_chefcollection"
+        android:icon="@drawable/ic_quickbook"
+        android:title="Chef" />
+
+
+    <item
+        android:id="@+id/navigation_premium"
+        android:icon="@drawable/ic_discount"
+        android:title="Premium" />
 
     <item
         android:id="@+id/navigation_social"
-        android:icon="@drawable/ic_feed"
+        android:icon="@drawable/ic_tv"
         android:title="Social" />
+    <item
+        android:id="@+id/navigation_event"
+        android:icon="@drawable/ic_event"
+        android:title="Event" />
 
-    <item
-        android:id="@+id/navigation_quickbooking"
-        android:icon="@drawable/ic_cooking"
-        android:title="Quick" />
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_none_black_24dp"
-        android:title="Notify" />
 
-    <item
-        android:id="@+id/navigation_bookingcart"
-        android:icon="@drawable/ic_shopping_cart_black_24dp"
-        android:title="Cart" />
 </menu>

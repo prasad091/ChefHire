@@ -16,7 +16,7 @@ abstract class HeaderItemViewAllModel : EpoxyModelWithHolder<HeaderItemViewAllMo
     override fun bind(holder: Holder) {
         super.bind(holder)
         holder.title.text = title
-        holder.viewAll.text = "View All"
+        holder.viewAll.text = "See More"
     }
 
     class Holder : EpoxyHolder() {

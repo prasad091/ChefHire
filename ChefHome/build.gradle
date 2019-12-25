@@ -27,7 +27,7 @@ dependencies {
     implementation project(':app')
     implementation Deps.epoxy
     kapt Deps.epoxyprocessor
-    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
 }
 repositories {
     mavenCentral()

@@ -9,34 +9,33 @@
     <fragment
         app:moduleName="chefhome"
         android:id="@+id/navigation_home"
-        android:name="com.root.chefhome.ui.BasicVersionFragment"
+        android:name="com.root.chefhome.ui.HomeFragment"
         android:label="Home"
-
         />
 
+    <fragment
+        app:moduleName="chefcategory"
+        android:id="@+id/navigation_chefcollection"
+        android:name="com.root.chefcategory.BlankFragment"
+        android:label="Chef"
+        />
+
+    <fragment
+        app:moduleName="socialfeed"
+        android:id="@+id/navigation_premium"
+        android:name="com.root.socialfeed.BasicFragment"
+        android:label="Premium"
+        />
     <fragment
         app:moduleName="socialfeed"
         android:id="@+id/navigation_social"
         android:name="com.root.socialfeed.BasicFragment"
-        android:label="Social"
-        />
-
-    <fragment
-        app:moduleName="socialfeed"
-        android:id="@+id/navigation_notifications"
-        android:name="com.root.socialfeed.BasicFragment"
-        android:label="Quick Book"
+        android:label="Video"
         />
     <fragment
         app:moduleName="socialfeed"
-        android:id="@+id/navigation_bookingcart"
+        android:id="@+id/navigation_event"
         android:name="com.root.socialfeed.BasicFragment"
-        android:label="Notification"
-        />
-    <fragment
-        app:moduleName="socialfeed"
-        android:id="@+id/navigation_quickbooking"
-        android:name="com.root.socialfeed.BasicFragment"
-        android:label="Cart"
+        android:label="Event"
         />
 </navigation>

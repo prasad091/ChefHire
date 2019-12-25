@@ -11,9 +11,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bookinghistory" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/chefcategory" />
+            <option value="$PROJECT_DIR$/chefcollection" />
             <option value="$PROJECT_DIR$/chefhome" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/profile" />
             <option value="$PROJECT_DIR$/quickbook" />
             <option value="$PROJECT_DIR$/searchchef" />
