@@ -30,7 +30,7 @@ android {
         outputFormat = 'html'
         outputDirectory = "$buildDir/javadoc"
     }
-    dynamicFeatures = [":chefhome", ":socialfeed", ":bookinghistory", ":searchchef", ":profile", ":chefcategory"]
+    dynamicFeatures = [":chefhome", ":socialfeed", ":bookinghistory", ":searchchef", ":profile", ":chefcategory", ":premiumchef", ":eventchef"]
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

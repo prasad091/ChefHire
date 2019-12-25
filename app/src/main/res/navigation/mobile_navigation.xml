@@ -21,9 +21,9 @@
         />
 
     <fragment
-        app:moduleName="socialfeed"
+        app:moduleName="premiumchef"
         android:id="@+id/navigation_premium"
-        android:name="com.root.socialfeed.BasicFragment"
+        android:name="com.root.premiumchef.BlankFragment"
         android:label="Premium"
         />
     <fragment
@@ -33,9 +33,9 @@
         android:label="Video"
         />
     <fragment
-        app:moduleName="socialfeed"
+        app:moduleName="eventchef"
         android:id="@+id/navigation_event"
-        android:name="com.root.socialfeed.BasicFragment"
+        android:name="com.root.eventchef.BlankFragment"
         android:label="Event"
         />
 </navigation>

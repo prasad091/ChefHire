@@ -26,6 +26,6 @@
         android:gravity="center"
         android:textSize="20sp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Under construction" />
+        android:text="Social Feed" />
 
 </LinearLayout>

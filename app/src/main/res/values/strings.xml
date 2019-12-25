@@ -17,4 +17,6 @@
     <string name="search_text">Search for chefs,cuisines...</string>
     <string name="title_chefcollection">chefcollection</string>
     <string name="title_chefcategory">chefcategory</string>
+    <string name="title_premiumchef">premiumchef</string>
+    <string name="title_eventchef">eventchef</string>
 </resources>
