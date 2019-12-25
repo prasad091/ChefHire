@@ -5,7 +5,7 @@ ChefHire
 
 1.Mvvm pattern or MvRX              
 2.Architectural components
-* Navigation
+* :heavy_check_mark:Navigation
 * Paging Library
 * Room Database
 * DataBinding
@@ -14,10 +14,10 @@ ChefHire
 * DataBinding (Optional)
 * KTX
 * Test/UI test/unit test   
-3.Dynamic Features  
+3.:heavy_check_mark:Dynamic Features  
 4.Thirdparty 
-* Litho
-* Epoxy
+* :heavy_check_mark:Litho
+* :heavy_check_mark:Epoxy
 * ButterKnife (Optional)
 * Dagger or Koin 
 * RxJava
@@ -26,16 +26,16 @@ ChefHire
 
 
 # Language
-Kotlin
+:heavy_check_mark:Kotlin
 
 # CI 
 CircleCI 
 
 # Other
-* Material Design
+* :heavy_check_mark:Material Design
 * CustomView Design
 * MotionLayouts
-* Constraint Layouts
+* :heavy_check_mark:Constraint Layouts
 
 # Documentation
-Dokka
+:heavy_check_mark:Dokka
