@@ -90,6 +90,7 @@
             <include layout="@layout/nav_header_main" />
 
             <include layout="@layout/nav_drawer_menu" />
+
         </LinearLayout>
     </com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>

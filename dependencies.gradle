@@ -13,4 +13,5 @@ dependencies{
     implementation Deps.navUIKtx
     api Deps.dynamicFeatureFrag
     implementation 'de.hdodenhof:circleimageview:3.0.1'
+
 }

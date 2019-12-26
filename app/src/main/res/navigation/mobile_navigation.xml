@@ -29,7 +29,7 @@
     <fragment
         app:moduleName="socialfeed"
         android:id="@+id/navigation_social"
-        android:name="com.root.socialfeed.BasicFragment"
+        android:name="com.root.socialfeed.ui.BasicFragment"
         android:label="Video"
         />
     <fragment

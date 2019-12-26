@@ -5,27 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
-    android:gravity="center"
     >
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        android:layout_gravity="center"
-        android:gravity="center"
-        app:lottie_rawRes="@raw/cooking" />
 
-    <TextView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Social Feed" />
-
+        app:contentPadding="@dimen/dp_8dp"
+        android:layout_margin="@dimen/dp_8dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="2dp"
+        >
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:drawablePadding="@dimen/dp_8dp"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:focusable="false"
+            android:enabled="false"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/search_text"
+            android:textColorHint="@color/tab_indicator_gray"
+            />
+    </com.google.android.material.card.MaterialCardView>
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/messagesView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
 </LinearLayout>
