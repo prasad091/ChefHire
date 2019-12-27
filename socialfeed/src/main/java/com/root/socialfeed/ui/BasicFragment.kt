@@ -10,6 +10,9 @@ import com.root.socialfeed.BasicViewModel
 import com.root.socialfeed.R
 import com.root.socialfeed.SocialController
 import com.root.socialfeed.data.HeaderBannerData
+import com.root.socialfeed.data.VideoGroupData
+import com.root.socialfeed.data.VideoItemData
+import com.root.socialfeed.data.VideoPlayData
 import kotlinx.android.synthetic.main.basic_fragment.*
 
 
@@ -34,6 +37,11 @@ class BasicFragment : Fragment() {
         val controller = SocialController()
         messagesView.setController(controller)
         controller.headerBanner = HeaderBannerData.headerBanner
+        controller.videoItem = VideoItemData.videoItem
+        controller.videoPlay = VideoPlayData.videoPlayList
+        controller.videoGroup = VideoGroupData.videoGroup
+
+
 
     }
 
