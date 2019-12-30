@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".BlankFragment">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
 
-    <TextView
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="@dimen/dp_8dp"
+        android:layout_margin="@dimen/dp_8dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="2dp"
+        >
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:drawablePadding="@dimen/dp_8dp"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:focusable="false"
+            android:enabled="false"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/search_text"
+            android:textColorHint="@color/tab_indicator_gray"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Chef Collections In Tab" />
+        android:layout_alignParentBottom="true"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabPaddingStart="0dp"
+        app:tabPaddingEnd="0dp"
+        >
 
-</FrameLayout>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newest" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+</LinearLayout>

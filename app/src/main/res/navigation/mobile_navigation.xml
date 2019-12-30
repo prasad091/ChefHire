@@ -16,7 +16,7 @@
     <fragment
         app:moduleName="chefcategory"
         android:id="@+id/navigation_chefcollection"
-        android:name="com.root.chefcategory.BlankFragment"
+        android:name="com.root.chefcategory.ui.BlankFragment"
         android:label="Chef"
         />
 
