@@ -27,6 +27,7 @@ abstract class HeaderItemViewAllModel : EpoxyModelWithHolder<HeaderItemViewAllMo
         override fun bindView(itemView: View) {
             title = itemView.findViewById(R.id.header_title)
             viewAll = itemView.findViewById(R.id.header_viewAll)
+
         }
     }
 }

@@ -21,6 +21,7 @@ abstract class FavOrderMenuModel : EpoxyModelWithHolder<FavOrderMenuModel.Holder
         with(favOrder) {
             holder.title.text = name
             holder.image.setImageResource(image)
+
         }
     }
     class Holder : EpoxyHolder() {
