@@ -8,7 +8,6 @@ ChefHire
 * :heavy_check_mark:Navigation
 * Paging Library
 * Room Database
-* DataBinding
 * Lifecycles
 * LiveData
 * DataBinding (Optional)
