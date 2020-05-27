@@ -1,0 +1,1 @@
+G:\AndroidProject\ChefHire\buildSrc\build\classes\kotlin\main\Deps.class;G:\AndroidProject\ChefHire\buildSrc\build\classes\kotlin\main\RootVersion.class;G:\AndroidProject\ChefHire\buildSrc\build\classes\kotlin\main\TestDeps.class;G:\AndroidProject\ChefHire\buildSrc\build\classes\kotlin\main\Versions.class
