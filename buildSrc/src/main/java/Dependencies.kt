@@ -23,6 +23,7 @@ val dynamicFeatureFrag  = "2.3.0-alpha03"
 val legacyv4    = "1.0.0"
 val epoxy       = "3.9.0"
 val lifecycle = "2.2.0"
+val cirecleImage = "3.0.1"
 }
 
 
@@ -44,6 +45,7 @@ object Deps{
     val legacyv4            = "androidx.legacy:legacy-support-v4:${Versions.legacyv4}"
     val epoxy               = "com.airbnb.android:epoxy:${Versions.epoxy}"
     val epoxyprocessor      = "com.airbnb.android:epoxy-processor:${Versions.epoxy}"
+    val circleImage         = "de.hdodenhof:circleimageview:${Versions.cirecleImage}"
 }
 
 object TestDeps{
