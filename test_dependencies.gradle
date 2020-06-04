@@ -2,4 +2,5 @@ dependencies {
     testImplementation TestDeps.junit4
     androidTestImplementation TestDeps.junitExt
     androidTestImplementation TestDeps.espresso
+    testImplementation  "io.mockk:mockk:1.10.0"
 }
