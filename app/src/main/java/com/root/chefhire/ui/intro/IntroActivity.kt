@@ -122,19 +122,19 @@ class IntroActivity : AppCompatActivity() {
 
     private fun restorePrefData(): Boolean {
         val pref = applicationContext.getSharedPreferences(
-            "myPrefs",
+            getString(R.string.pref),
             Context.MODE_PRIVATE
         )
-        return pref.getBoolean("isIntroOpnend", false)
+        return pref.getBoolean(getString(R.string.isOpened), false)
     }
 
     private fun savePrefsData() {
         val pref = applicationContext.getSharedPreferences(
-            "myPrefs",
+            getString(R.string.pref),
             Context.MODE_PRIVATE
         )
         val editor = pref.edit()
-        editor.putBoolean("isIntroOpnend", true)
+        editor.putBoolean(getString(R.string.isOpened), true)
         editor.apply()
     }
 
