@@ -24,6 +24,7 @@ val legacyv4    = "1.0.0"
 val epoxy       = "3.9.0"
 val lifecycle = "2.2.0"
 val cirecleImage = "3.0.1"
+val mockk        = "1.10.0"
 }
 
 
@@ -46,10 +47,12 @@ object Deps{
     val epoxy               = "com.airbnb.android:epoxy:${Versions.epoxy}"
     val epoxyprocessor      = "com.airbnb.android:epoxy-processor:${Versions.epoxy}"
     val circleImage         = "de.hdodenhof:circleimageview:${Versions.cirecleImage}"
+
 }
 
 object TestDeps{
     val junit4      = "junit:junit:${Versions.junit4}"
     val junitExt    = "androidx.test.ext:junit:${Versions.junitExt}"
     val espresso    = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+    val mockk               = "io.mockk:mockk:${Versions.mockk}"
 }
