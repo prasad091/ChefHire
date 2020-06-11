@@ -21,4 +21,7 @@
     <string name="title_eventchef">eventchef</string>
     <string name="pref">myPrefs</string>
     <string name="isOpened">isIntroOpnend</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_an_new_account">Create an new account ?</string>
 </resources>
