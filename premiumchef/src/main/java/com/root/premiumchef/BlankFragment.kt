@@ -1,11 +1,12 @@
 package com.root.premiumchef
 
-import androidx.lifecycle.ViewModelProviders
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 
 
 class BlankFragment : Fragment() {
@@ -25,7 +26,7 @@ class BlankFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(BlankViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(BlankViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
