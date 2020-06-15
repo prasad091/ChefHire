@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
+
 import com.root.chefhome.HomeViewModel
 import com.root.chefhome.HomeController
 import com.root.chefhome.R
@@ -37,7 +38,7 @@ class HomeFragment : Fragment() {
     @SuppressLint("RestrictedApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         val controller = HomeController()
         messagesView.setController(controller)
         controller.recentChefs = Data.recentChefs
