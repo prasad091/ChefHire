@@ -48,6 +48,7 @@ object Deps{
     val epoxyprocessor      = "com.airbnb.android:epoxy-processor:${Versions.epoxy}"
     val circleImage         = "de.hdodenhof:circleimageview:${Versions.cirecleImage}"
 
+
 }
 
 object TestDeps{

@@ -46,10 +46,9 @@ dependencies {
     api Deps.legacyv4
     api Deps.lifecycleExt
     api Deps.viewmodel
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation Deps.kotlin_stdlib_jdk7
-    implementation Deps.appCompat
-    implementation Deps.epoxy
+    api Deps.kotlin_stdlib_jdk7
+    api Deps.appCompat
+    api Deps.epoxy
     kapt Deps.epoxyprocessor
-
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
