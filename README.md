@@ -19,7 +19,7 @@ ChefHire
 * :heavy_check_mark:Litho
 * :heavy_check_mark:Epoxy
 * ButterKnife (Optional)
-* Dagger or Koin 
+* :heavy_check_mark:Dagger or Koin 
 * RxJava
 * Kotlin Coroutines
 * Glide/Fresco/Piccaso
